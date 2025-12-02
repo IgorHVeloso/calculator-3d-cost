@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Calculadora 3d</title>
+    <link rel="icon" href="img/favicon-32x32.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="calculator-container">
+      <img
+        src="/img/android-chrome-192x192.png"
+        alt="3dprinter"
+        class="printer"
+      />
+
+      <h1>Calculadora 3D</h1>
+
+      <div class="input-group">
+        <label for="peso">Peso do carretel (g):</label>
+        <input type="number" id="pesoCarretel" placeholder="Ex: 1000" />
+      </div>
+
+      <div class="input-group">
+        <label for="valor">Custo do carretel (R$):</label>
+        <input type="number" id="valorCarretel" placeholder="Ex: 1,00" />
+      </div>
+
+      <div class="input-group">
+        <label for="peso-peca">Peso da peça (g):</label>
+        <input type="number" id="pesoPeca" placeholder="Ex: 15.75" />
+      </div>
+
+      <button id="calcular">Calcular</button>
+
+      <div class="result-group">
+        <label for="resultado">Custo da peça(R$):</label>
+        <input type="text" id="resultado" placeholder="Resultado" readonly />
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
