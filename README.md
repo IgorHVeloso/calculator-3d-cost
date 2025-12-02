@@ -75,11 +75,8 @@ Sugestões de melhorias futuras:
 
 Abra um Pull Request se quiser colaborar!
 
-<br><br>
+<br>
 
-
-<br><br>
-
-⭐ Gostou?
+## ⭐ Gostou?
 
 Deixe uma estrela ⭐ no repositório!
